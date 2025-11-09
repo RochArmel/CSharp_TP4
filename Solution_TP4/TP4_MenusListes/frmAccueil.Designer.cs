@@ -48,9 +48,6 @@ namespace TP4_MenusListes
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbExit = new System.Windows.Forms.ToolStripButton();
             this.cmsMenuContextuel = new System.Windows.Forms.ContextMenuStrip(this.components);
-            // Re-create menu items for context menu
-            this.deplacementContextMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitContextMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 
             this.menuStrip1.SuspendLayout();
             this.tsBarreOutils.SuspendLayout();
@@ -204,28 +201,8 @@ namespace TP4_MenusListes
             //
             // cmsMenuContextuel
             //
-            // This is a workaround for the designer. In a real scenario, you would copy the items.
-            // Since I cannot use the designer, I am recreating the items manually.
-            this.cmsMenuContextuel.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-                new System.Windows.Forms.ToolStripMenuItem("Listes", null, new System.Windows.Forms.ToolStripItem[] {
-                    new System.Windows.Forms.ToolStripMenuItem("Deplacement des données", null, this.deplacementMenuItem_Click),
-                    new System.Windows.Forms.ToolStripSeparator(),
-                    new System.Windows.Forms.ToolStripMenuItem("Exit", null, this.exitMenuItem_Click)
-                }),
-                new System.Windows.Forms.ToolStripMenuItem("Paramètres", null, new System.Windows.Forms.ToolStripItem[] {
-                    new System.Windows.Forms.ToolStripMenuItem("Afficher Barre d'outils", null, this.afficherBarreMenuItem_Click),
-                    new System.Windows.Forms.ToolStripMenuItem("Désactiver Barre D'outils", null, this.desactiverBarreMenuItem_Click),
-                    new System.Windows.Forms.ToolStripSeparator(),
-                    new System.Windows.Forms.ToolStripMenuItem("Afficher Image pour le Bureau", null, this.afficherImageMenuItem_Click),
-                    new System.Windows.Forms.ToolStripMenuItem("Changer Couleur du Bureau", null, this.changerCouleurMenuItem_Click)
-                }),
-                new System.Windows.Forms.ToolStripMenuItem("?", null, new System.Windows.Forms.ToolStripItem[] {
-                    new System.Windows.Forms.ToolStripMenuItem("Aide", null, this.aideAideMenuItem_Click),
-                    new System.Windows.Forms.ToolStripMenuItem("A propos de TP4", null, this.aproposMenuItem_Click)
-                })
-            });
             this.cmsMenuContextuel.Name = "cmsMenuContextuel";
-            this.cmsMenuContextuel.Size = new System.Drawing.Size(153, 70);
+            this.cmsMenuContextuel.Size = new System.Drawing.Size(61, 4);
             //
             // frmAccueil
             //
