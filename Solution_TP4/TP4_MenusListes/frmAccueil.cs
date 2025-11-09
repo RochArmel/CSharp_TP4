@@ -25,10 +25,6 @@ namespace TP4_MenusListes
             this.changerCouleurMenuItem.Click += new System.EventHandler(this.changerCouleurMenuItem_Click);
             this.aideAideMenuItem.Click += new System.EventHandler(this.aideAideMenuItem_Click);
             this.aproposMenuItem.Click += new System.EventHandler(this.aproposMenuItem_Click);
-
-            // Context menu items
-            this.deplacementContextMenuItem.Click += new System.EventHandler(this.deplacementMenuItem_Click);
-            this.exitContextMenuItem.Click += new System.EventHandler(this.exitMenuItem_Click);
         }
 
         private void deplacementMenuItem_Click(object sender, EventArgs e)
